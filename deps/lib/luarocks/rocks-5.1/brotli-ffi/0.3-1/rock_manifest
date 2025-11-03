@@ -1,0 +1,10 @@
+rock_manifest = {
+   ["brotli-ffi-0.3-1.rockspec"] = "12a84497ad8196176b331c08c6ca1a39",
+   doc = {
+      ["readme.md"] = "2e575729dfb25d36983a38e6cffa04e6"
+   },
+   lua = {
+      ["brotli.lua"] = "32f923b0536518b883bd4ace3a16ecfd",
+      ["brotli_bindings.lua"] = "9665ccf76a672399525aa7bf284e0486"
+   }
+}

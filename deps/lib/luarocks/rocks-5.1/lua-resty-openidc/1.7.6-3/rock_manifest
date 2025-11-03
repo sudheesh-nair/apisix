@@ -1,0 +1,13 @@
+rock_manifest = {
+   doc = {
+      ["LICENSE.txt"] = "3b83ef96387f14655fc854ddc3c6bd57",
+      ["README.md"] = "fd94fe1fd561bc647a39283d260781c2",
+      ["RELEASE.md"] = "cf9d32904298fff2a9ad3970435f77eb"
+   },
+   lua = {
+      resty = {
+         ["openidc.lua"] = "77d7d2409159ae3a935a1ee82bf8f6ee"
+      }
+   },
+   ["lua-resty-openidc-1.7.6-3.rockspec"] = "14ba6abea24f82a53ac8afb1c53212e4"
+}
