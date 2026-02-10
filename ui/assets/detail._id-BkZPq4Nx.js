@@ -1,0 +1,1 @@
+import{j as e}from"./antd-vendor-C01oSD3T.js";import{o as s,az as a,ai as r,aH as m}from"./index-C7n9ulEM.js";import"./monaco-editor-vendor-DU3RmTXG.js";import"./react-vendor-DoC2WAmd.js";const f=s(function(){const{id:t}=a({from:"/stream_routes/detail/$id"}),o=r();return e.jsx(m,{id:t,onDeleteSuccess:()=>o({to:"/stream_routes"})})});export{f as component};

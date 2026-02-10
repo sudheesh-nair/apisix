@@ -1,0 +1,1 @@
+import{j as e}from"./antd-vendor-C01oSD3T.js";import{o as s,az as a,ai as r,b4 as n}from"./index-C7n9ulEM.js";import"./monaco-editor-vendor-DU3RmTXG.js";import"./react-vendor-DoC2WAmd.js";const f=s(function(){const{id:o}=a({from:"/routes/detail/$id"}),t=r();return e.jsx(n,{id:o,onDeleteSuccess:()=>t({to:"/routes"})})});export{f as component};

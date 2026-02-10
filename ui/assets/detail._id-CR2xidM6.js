@@ -1,0 +1,1 @@
+import{j as o}from"./antd-vendor-C01oSD3T.js";import{o as t,b2 as r,b3 as s}from"./index-C7n9ulEM.js";import"./monaco-editor-vendor-DU3RmTXG.js";import"./react-vendor-DoC2WAmd.js";const a=t(function(){return o.jsxs(o.Fragment,{children:[o.jsx(r,{}),o.jsx(s,{})]})});export{a as component};
