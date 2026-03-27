@@ -1,0 +1,105 @@
+rock_manifest = {
+   doc = {
+      ["CHANGELOG.md"] = "45d717b9c32ff04e133b1023cbb11f19",
+      LICENSE = "33e80aa7d8001719eb9ab0d733151b85",
+      ["README.md"] = "4cbf0a81e1e4cc063d1346d4f5b7678d"
+   },
+   lua = {
+      resty = {
+         openssl = {
+            ["asn1.lua"] = "c70c2b42a576702676d59c7645ff6601",
+            auxiliary = {
+               ["bio.lua"] = "d0e463105c4154c3dd677ae290c0e3b5",
+               ["compat.lua"] = "9e0b87cc9b3040c66deba3e678f262a2",
+               ["ctypes.lua"] = "78086ad79c7c0fdbfa41fe3e104eac12",
+               ["ecdsa.lua"] = "e955aa07fcefb49e9833ce06a63e8076",
+               ["jwk.lua"] = "3e1008cd82b225700d6a01fe21c50b0d",
+               ["nginx.lua"] = "ae89612828bcf10383ab5f4f439ce296",
+               ["nginx_c.lua"] = "73e5af4f183b97bf94fe04d0a41d2faf"
+            },
+            ["bn.lua"] = "ebda6757445471fbb19533f2678ca40e",
+            ["cipher.lua"] = "acc9073926109e61457473714c50c274",
+            ["crypto.lua"] = "91cc48a8c5db2da0c7dde20b30b7bbdf",
+            ["ctx.lua"] = "9d693f26634df377f190ab28d1abb362",
+            ["dh.lua"] = "ed5f0b2143aeb8362bd3818ae8dcf4cf",
+            ["digest.lua"] = "6b7f2414d10c3f4bcbbc5705b8f4fa62",
+            ["ec.lua"] = "600ea0c7dcf56bd35abf32f4b8e05545",
+            ["ecx.lua"] = "b69ff081eb303994b8680c9c0c1168d7",
+            ["err.lua"] = "f48130a206457ec23966e737be92f9c6",
+            ["hmac.lua"] = "6282c74391116cc7c10bd5cef4a029ef",
+            include = {
+               ["asn1.lua"] = "a5dba9fccd7f129007fd55bbc14ce953",
+               ["bio.lua"] = "82262ef886db6e85c82785a4c6668d5d",
+               ["bn.lua"] = "5ae42a47aa6b0a47639ca481fb978dcf",
+               ["conf.lua"] = "2a730d511a6943b992e03110f134ccdf",
+               ["crypto.lua"] = "193ec1b351847062358ac1ecc88421e2",
+               ["dh.lua"] = "25f1fe3654152b08a2e16cde8b45b38e",
+               ["ec.lua"] = "6c59b679e74832f19477a0b8fdb60e40",
+               ["ecdsa.lua"] = "2ee4cf280285bf313b7dae19e5c0901d",
+               ["err.lua"] = "bcdae94fff1a98ec2c000b12ae362e60",
+               evp = {
+                  ["cipher.lua"] = "d72daaaa86e3ef980cc129d2d928597a",
+                  ["kdf.lua"] = "61ff767cc13afcb1c38a195f965dcf4b",
+                  ["mac.lua"] = "1cf7286050923931e779a971d367fb26",
+                  ["md.lua"] = "83c3fd28ebb43e1eaccf1c92c3efb4a7",
+                  ["pkey.lua"] = "12d8318cd904e299cfde01ec2bf64e93"
+               },
+               ["evp.lua"] = "0b61bdcfb0059b92a1d9528c3426bf82",
+               ["hmac.lua"] = "cae4045c89512ae389989ff3a99e4442",
+               ["objects.lua"] = "011a238dc19b8d72342c8f9f16ff5aeb",
+               ["ossl_typ.lua"] = "cf533aeb394d575534bc37f398510443",
+               ["param.lua"] = "9fc914e064c5818dfa1f61a9b9587a1f",
+               ["pem.lua"] = "3dbfcb0829eafb5fc63c235e7b1cddd4",
+               ["pkcs12.lua"] = "faed73e867b6ea4c1b61b0d490006a8e",
+               ["provider.lua"] = "4d2132e9f64909e8017f2028eb96a0c5",
+               ["rand.lua"] = "45fca5d8b8b740dbca22f8c75becbfc7",
+               ["rsa.lua"] = "7b46d21d8ed592a75eec22cabe6d5f7f",
+               ["ssl.lua"] = "5eac14a4e5594e245221276663550fa8",
+               ["stack.lua"] = "d8db94b8c5d53b6df86509f6d6e3b030",
+               x509 = {
+                  ["altname.lua"] = "80a53e7339a959e9885946444e557c24",
+                  ["crl.lua"] = "8e813779f088d6163a89f8a822d1ddf0",
+                  ["csr.lua"] = "1cfc57024d71df473b32c91e3a840865",
+                  ["extension.lua"] = "f0b2d5b3913a86c8aaf76a85c7cb0975",
+                  ["init.lua"] = "2135c73279bc131d5a24f814ec5bc176",
+                  ["name.lua"] = "6e93d803bbc314b667ebfca576bf61d7",
+                  ["revoked.lua"] = "88be7d49a10a1c3ffe123d2b08342ef8"
+               },
+               ["x509_vfy.lua"] = "a3ae15431ae4106ec61f8ec49fc7b2d6",
+               ["x509v3.lua"] = "19ed1737f75793c47411e7efc3a93990"
+            },
+            ["kdf.lua"] = "3d2b54d317a9401819f6fe6650054b03",
+            ["mac.lua"] = "58777cfaaef9307a5645bd09dcda13bf",
+            ["objects.lua"] = "266f26d0ea32bcf1157676dd2112858c",
+            ["param.lua"] = "103d6e034a8ad94db58c8cb8c03d410e",
+            ["pkcs12.lua"] = "649b85ce61ac5e91b54feefcedeb83e0",
+            ["pkey.lua"] = "0d0807554d8fb748397a83f2c195ff94",
+            ["provider.lua"] = "df90fc2bf0eb94b4ee4bababdeac68d1",
+            ["rand.lua"] = "8893cf05152d56119084abcd9abada35",
+            ["rsa.lua"] = "179a938cc6cde763b4407dd97330d24c",
+            ["ssl.lua"] = "d27ecaebff5999adf7e7ccf262433c91",
+            ["ssl_ctx.lua"] = "457821596565f60b7b336cc9ef16f6e9",
+            ["stack.lua"] = "8049d91c746e8f48dec8734cfaaac11d",
+            ["version.lua"] = "81dceb3bf872be9695e49217f847acff",
+            x509 = {
+               ["altname.lua"] = "be006042975b74d617fe40375e7de19f",
+               ["chain.lua"] = "5796086de9dd951d7aa0b4a7f80b8ad1",
+               ["crl.lua"] = "1617bb09b2cb84f38f30c2b40afc72d9",
+               ["csr.lua"] = "6cbc254bab9fe6601766be70ac447f85",
+               extension = {
+                  ["dist_points.lua"] = "b3ecb01c9ac5b55641c9d18cf8b7f629",
+                  ["info_access.lua"] = "483877620dd60c898d7cd07ec9cdade5"
+               },
+               ["extension.lua"] = "3a2acdfbf51a8ad00af1d2126b2ff0f1",
+               ["extensions.lua"] = "524706ef517afd77c05342c6def2af12",
+               ["init.lua"] = "c7f172dba6c1b82fde48b3505c212273",
+               ["name.lua"] = "fd883bfdac796f8085fc1ea92adab492",
+               ["revoked.lua"] = "0be8f499f1e939ed7e0b877ed2da2564",
+               ["store.lua"] = "02210037a5e1aeee893f701765e89b65"
+            }
+         },
+         ["openssl.lua"] = "179e10aea0acf6d21a62303ccd2f02f6"
+      }
+   },
+   ["lua-resty-openssl-1.7.1-1.rockspec"] = "89d3609df45786f73f7267950a67543e"
+}
