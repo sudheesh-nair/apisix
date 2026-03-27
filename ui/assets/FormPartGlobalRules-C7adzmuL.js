@@ -1,0 +1,1 @@
+import{j as r}from"./antd-vendor-Bh4wz1Ay.js";import{o as s,aM as o,bg as e,bb as a}from"./index-XWCA1Xbj.js";const l=s(()=>r.jsx(o,{legend:e("form.plugins.label"),children:r.jsx(a,{name:"plugins"})}));export{l as F};
