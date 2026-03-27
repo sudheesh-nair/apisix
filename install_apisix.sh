@@ -85,15 +85,19 @@ sudo cp -r bin ${APISIX_DIR}/
 
 
 echo "============================================="
-echo " Step 4: Configure standalone mode (no etcd)"
+echo " Step 4: Configure APISIX with etcd"
 echo "============================================="
 
-# Configure APISIX to use standalone yaml mode instead of etcd
 sudo tee /usr/local/apisix/conf/config.yaml > /dev/null <<EOF
 deployment:
   role: traditional
   role_traditional:
-    config_provider: yaml
+    config_provider: etcd
+  etcd:
+    host:
+      - http://127.0.0.1:2379
+    prefix: /apisix
+    timeout: 30
   admin:
     enable_admin_ui: true
     allow_admin:
@@ -102,12 +106,6 @@ deployment:
       - key: ${APISIX_ADMIN_KEY}
         name: admin
         role: admin
-EOF
-
-# Create minimal apisix.yaml config
-sudo tee /usr/local/apisix/conf/apisix.yaml > /dev/null <<EOF
-routes: []
-#END
 EOF
 
 
@@ -146,6 +144,10 @@ echo "============================================="
 
 sudo systemctl start apisix
 sudo systemctl status apisix
+
+# Verify APISIX is responding
+sleep 2
+curl http://127.0.0.1:9090/v1/healthcheck
 
 echo "============================================="
 echo " Done! APISIX ${APISIX_VERSION} is running"

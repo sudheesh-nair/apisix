@@ -180,5 +180,5 @@ git push myfork ${BRANCH}
 
 echo "============================================="
 echo " Done! All changes pushed to fork on branch ${BRANCH}"
-echo "============================================="
-
+echo "=============================================
+"
