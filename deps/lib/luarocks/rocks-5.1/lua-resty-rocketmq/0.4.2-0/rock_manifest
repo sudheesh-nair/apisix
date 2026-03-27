@@ -1,0 +1,27 @@
+rock_manifest = {
+   doc = {
+      LICENSE = "475ec1fab52fa43c0f5804c0230541a7",
+      ["README.md"] = "b2b02474f78085e445c9e031c15c6e91"
+   },
+   lua = {
+      resty = {
+         rocketmq = {
+            ["acl_rpchook.lua"] = "f3d85e1ba5ead16e50bae672ecfcd186",
+            ["admin.lua"] = "205058fd676a0bc0f0be4c8006ac466d",
+            ["client.lua"] = "d3344e6c83751b9bb3830e7367400bde",
+            consumer = {
+               ["offsetstore.lua"] = "7c15ae2b0b118ea5bc2d3594c305caae",
+               ["rebalancer.lua"] = "326f595237e39e701758734fb601da2c"
+            },
+            ["consumer.lua"] = "d9099792c48e2fdaa0fc86db80716309",
+            ["core.lua"] = "84ee06f21f8384b162c34fe59ddaaf48",
+            ["json.lua"] = "e43fd53c0b9fd6be0e42a1b4d4cc3fd4",
+            ["producer.lua"] = "b8c948ea79fff00628356e9f42d63f70",
+            ["queue.lua"] = "244c64aba1591d33eae795ce328a0a3d",
+            ["trace.lua"] = "a115b65c9e4bc0ac114112304ff36e5d",
+            ["utils.lua"] = "5bcab67e013d755efbfb64c6ee9f6e7c"
+         }
+      }
+   },
+   ["lua-resty-rocketmq-0.4.2-0.rockspec"] = "225b77dfbe9a27ed46e1f02c949b36aa"
+}

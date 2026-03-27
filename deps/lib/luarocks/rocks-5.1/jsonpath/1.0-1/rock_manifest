@@ -1,0 +1,10 @@
+rock_manifest = {
+   ["jsonpath-1.0-1.rockspec"] = "a686b3a6731d49261d50cec6adf1d7d2",
+   lua = {
+      ["jsonpath.lua"] = "c1864451178bc2dc8194dde995bffec7"
+   },
+   test = {
+      ["data.lua"] = "705da6b30e933e5a511b74348fd23949",
+      ["test.lua"] = "f4f43f5b4e0bb3bba7218d31446c72e7"
+   }
+}

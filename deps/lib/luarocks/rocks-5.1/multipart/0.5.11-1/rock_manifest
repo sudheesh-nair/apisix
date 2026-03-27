@@ -1,0 +1,11 @@
+rock_manifest = {
+   doc = {
+      ["CHANGELOG.md"] = "5c3847b3e01b5a52d625934d84e6050a",
+      LICENSE = "7819280357adde826088d39d29df39d9",
+      ["README.md"] = "36b81e468dcf67bd073a44558a9734c1"
+   },
+   lua = {
+      ["multipart.lua"] = "0bab1cf1991154e6ae574c7ae22bb5a5"
+   },
+   ["multipart-0.5.11-1.rockspec"] = "b2cf0f358571d3ecea9d4ba52310df9d"
+}
