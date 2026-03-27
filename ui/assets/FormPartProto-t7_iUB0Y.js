@@ -1,0 +1,1 @@
+import{j as s}from"./antd-vendor-Bh4wz1Ay.js";import{o as a,u as n,aN as m,aO as c}from"./index-XWCA1Xbj.js";const t=".proto,.pb",i=a(r=>{const{t:o}=n(),e=m();return s.jsx(c,{name:"content",label:o("form.protos.content"),placeholder:o("form.protos.contentPlaceholder",{fileTypes:t}),control:e.control,minRows:10,acceptFileTypes:t,...r})});export{i as F};

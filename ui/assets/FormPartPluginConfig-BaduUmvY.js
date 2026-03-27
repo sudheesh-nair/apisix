@@ -1,0 +1,1 @@
+import{j as r}from"./antd-vendor-Bh4wz1Ay.js";import{o as t,aT as a}from"./index-XWCA1Xbj.js";import{a as i}from"./FormPartConsumer-D6ks5531.js";const c=t((o={})=>{const{basicProps:s}=o;return r.jsxs(r.Fragment,{children:[r.jsx(a,{...s}),r.jsx(i,{})]})});export{c as F};

@@ -1,0 +1,1 @@
+import{j as t}from"./antd-vendor-Bh4wz1Ay.js";import{o as n,b8 as a,b9 as m}from"./index-XWCA1Xbj.js";const f=n(r=>{var o,s;if(r.error instanceof a){const e=r.error;if(((o=e.response)==null?void 0:o.status)===400)return t.jsx("span",{children:(s=e.response)==null?void 0:s.data.error_msg})}return t.jsx(m,{...r})});export{f as S};
